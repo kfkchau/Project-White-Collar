@@ -18,6 +18,23 @@ Dimensions
 
 Function
     prompt creation
-    
+
+
+
+
+
+
+
+Agent workflow
+        Workflow decision agent - always active (re ? - P - R - S)
+        input uplift lead
+        output uplift lead
+        analysis lead
+        Single role
+                Interdisciplianry identifier
+                interdisciplinary merger
+                Clarification / question asker
+                input / output comparer (against user's and previous input)
+        
     
   
