@@ -19,4 +19,4 @@ We ask that all participants in discussions remain respectful and constructive. 
 This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
 By contributing to this project, you agree that your contributions will be licensed under this same license.
 
-For more details, see the [LICENSE file](LICENSE).
+For more details, see the [LICENSE file]((https://github.com/kfkchau/Project-White-Collar/blob/main/LICENSE.md)).
