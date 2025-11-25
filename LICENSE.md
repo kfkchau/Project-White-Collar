@@ -1,16 +1,23 @@
-# Creative Commons Attribution 4.0 International License (CC BY 4.0)
+# 📄 License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) [2025] [Kelvin Chau]
+This work is part of the **Project White Collar Framework (PWCF)** and is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
-You are free to:
+## ✅ You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, including commercial use
 
-- Share — copy and redistribute the material in any medium, mode, or format
-- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+## 🧾 Under the following terms:
+- **Attribution were made and retain attribution to the original source.- **Attribution Required** — You must give appropriate credit to **Kelvin Chau**, provide a link to the license, and indicate if changes were made.
+  - Attribution must not suggest endorsement by the original creator unless explicitly agreed.
 
-Under the following conditions:
+## 📌 Attribution Format:
+> “Based on work from the Project White Collar Framework (PWCF) by Kelvin Chau, licensed under CC BY 4.0. Available at: https://github.com/kfkchau/Project-White-Collar”
 
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+## ❌ No additional restrictions:
+You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+## 🔗 Full License Text:
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-You can view the full license at: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+© Kelvin Chau, 2025
+  - Attribution must be clearly visible in all public-facing uses, including websites, publications, presentations, and digital platforms.
