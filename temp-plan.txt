@@ -1,0 +1,40 @@
+Dimensions
+    understanding
+        in - user
+            understanding user background
+            user comm style
+        out - user
+            understanding user needs
+            comm style fit for user
+    discipline / SME
+        discipline task out
+        discipline combine input
+    Problem framing
+    requirement identifying
+    solution engineering
+    knowledge body mgt
+        track change history
+        hidden and visible
+
+Function
+    prompt creation
+
+
+
+
+
+
+
+Agent workflow
+        Workflow decision agent - always active (re ? - P - R - S)
+        input uplift lead
+        output uplift lead
+        analysis lead
+        Single role
+                Interdisciplianry identifier
+                interdisciplinary merger
+                Clarification / question asker
+                input / output comparer (against user's and previous input)
+        
+    
+  
