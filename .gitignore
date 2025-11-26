@@ -1,4 +1,4 @@
-# Logic Atlas GitHub Ignore File
+# Ignore File
 
 # OS-specific files
 .DS_Store
@@ -28,3 +28,4 @@ __pycache__/
 
 # GitHub Pages build artifacts
 _site/
+/planning
