@@ -13,7 +13,6 @@ Thumbs.db
 # Markdown previews and exports
 *.txt
 *.html
-*.pdf
 /exports/
 
 # Diagrams and images (ignore all except .jpg)
