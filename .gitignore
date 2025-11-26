@@ -1,31 +1,31 @@
 # Ignore File
 
-# OS-specific files
+## OS-specific files
 .DS_Store
 Thumbs.db
 
-# Editor temp files
+## Editor temp files
 *.swp
 *.swo
 *.bak
 *.tmp
 
-# Markdown previews and exports
+## Markdown previews and exports
 *.txt
 *.html
 /exports/
 
-# Diagrams and images (ignore all except .jpg)
+## Diagrams and images (ignore all except .jpg)
 /diagrams/*.svg
 /diagrams/*.png
 /diagrams/*.gif
 /diagrams/*.tiff
 
-# Node or Python (if added later)
+## Node or Python (if added later)
 node_modules/
 __pycache__/
 *.pyc
 
-# GitHub Pages build artifacts
+## GitHub Pages build artifacts
 _site/
 planning/
