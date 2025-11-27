@@ -99,4 +99,12 @@ Governance is **embedded in orchestration**, not bolted on:
 ## 7. ✅ MECE Compliance  
 - Roles are **mutually exclusive** (no overlaps).  
 - Coverage is **collectively exhaustive** (all operational cases addressed).  
-- Governance hooks and escalation paths uniquely assigned.  
+- Governance hooks and escalation paths uniquely assigned.
+
+---
+
+© Kelvin Chau, 2025  
+This work is part of the [Project White Collar Framework](https://github.com/kfkchau/project-white-collar/).  
+Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+For attribution, citation, or inquiries, please refer to:  
+🔗 [https://au.linkedin.com/in/kfkchau](https://au.linkedin.com/in/kfkchau)
