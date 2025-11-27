@@ -74,4 +74,7 @@ Treat this version as **preliminary** and not yet production-certified.
 ---
 
 © Kelvin Chau, 2025  
-https://au.linkedin.com/in/kfkchau
+This work is part of the [Project White Collar Framework](https://github.com/kfkchau/project-white-collar/).  
+Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+For attribution, citation, or inquiries, please refer to:  
+🔗 [https://au.linkedin.com/in/kfkchau](https://au.linkedin.com/in/kfkchau)
