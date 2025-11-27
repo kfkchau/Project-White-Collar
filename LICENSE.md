@@ -19,5 +19,10 @@ You may not apply legal terms or technological measures that legally restrict ot
 ## 🔗 Full License Text:
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-© Kelvin Chau, 2025
-  - Attribution must be clearly visible in all public-facing uses, including websites, publications, presentations, and digital platforms.
+---
+
+© Kelvin Chau, 2025  
+This work is part of the [Project White Collar Framework](https://github.com/kfkchau/project-white-collar/).  
+Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+For attribution, citation, or inquiries, please refer to:  
+🔗 [https://au.linkedin.com/in/kfkchau](https://au.linkedin.com/in/kfkchau)
