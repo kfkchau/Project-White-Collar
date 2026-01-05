@@ -65,6 +65,7 @@ The User Lead is the cohort’s internal representative of the user. It owns the
   - Their constraints and sensitivities.
 - Coordinate user interaction patterns across:
   - First Respondent,
+  - Comms Strategist,
   - Persona Tracker,
   - Other non-governance leads.
 - Participate in committees where user context matters (e.g. Knowledge Management Committee, User Support/User Risk Committee).
@@ -73,7 +74,7 @@ The User Lead is the cohort’s internal representative of the user. It owns the
 
 - Persona profiles and history from Persona Tracker,
 - Session-level context (current call, ticket, project),
-- Governance constraints on what may/ may not be promised to users.
+- Governance constraints on what may / may not be promised to users.
 
 **Outputs**
 
@@ -96,7 +97,7 @@ The First Respondent is the primary conversational surface between the cohort an
 
 **Core responsibilities**
 
-- Greet and authenticate users (where relevant),
+- Greet and, where necessary, authenticate users,
 - Elicit missing information needed to start work,
 - Clarify the user’s immediate request in a way the rest of the cohort can process,
 - Maintain conversational continuity within a session.
@@ -112,13 +113,49 @@ The First Respondent is the primary conversational surface between the cohort an
 - Clarified, structured user requests to:
   - Input Lead (for refining),
   - Tasking Lead (once sufficiently clear),
-  - Governing committees (when escalation is needed).
+  - Governance (when escalation is needed).
 
 **Boundaries / non-responsibilities**
 
 - Does **not** make high-impact decisions on its own,
 - Does **not** directly access external systems or tools,
 - Does **not** redefine overall user persona (that’s Persona Tracker’s job).
+
+---
+
+### Comms Strategist
+
+**Purpose**  
+The Comms Strategist shapes how the cohort communicates over time: messaging strategy, channels, and communication patterns.
+
+**Core responsibilities**
+
+- Define communication strategies for:
+  - Different user types or segments,
+  - Different scenarios (onboarding, incident communication, complex explainers).
+- Advise on:
+  - When to push information vs wait for pull,
+  - How to sequence explanations or questions.
+- Coordinate with:
+  - User Lead (persona and expectations),
+  - Output Lead (final messaging),
+  - Governance (disclosures and warnings).
+
+**Inputs**
+
+- Persona profiles and history,
+- Past communication outcomes (what worked, what caused confusion),
+- Governance/organisation communication policies.
+
+**Outputs**
+
+- Communication playbooks or patterns,
+- Guidance to First Respondent and Output Uplifting team for tricky conversations.
+
+**Boundaries / non-responsibilities**
+
+- Does **not** own final wording (Output team does),
+- Does **not** change substantive decisions or commitments.
 
 ---
 
@@ -141,7 +178,7 @@ The Persona Tracker maintains persistent user models: who the user is, what they
 **Inputs**
 
 - Historical logs of user interactions,
-- Feedback from User Lead and First Respondent,
+- Feedback from User Lead, Comms Strategist, and First Respondent,
 - Governance constraints on what may be stored and how.
 
 **Outputs**
@@ -322,7 +359,6 @@ The Business Lead owns the business-side understanding of what’s being solved 
   - Requirements and acceptance criteria.
 - Coordinate the Business Analysis Team:
   - Problem Framer,
-  - Discipline Tagger,
   - Solution Planner,
   - Solution Generator.
 - Align analysis with:
@@ -362,10 +398,10 @@ The Problem Framer takes messy user requests and converts them into structured, 
   - What it is not,
   - What assumptions are being made,
   - What information is missing.
-- Produce a **framed problem statement** suitable for:
-  - Discipline tagging,
-  - Tasking decomposition,
-  - Research and solution planning.
+- Produce a **framed business problem** suitable for:
+  - Solution planning,
+  - Discipline tagging (by the Research team),
+  - Tasking decomposition.
 
 **Inputs**
 
@@ -380,54 +416,22 @@ The Problem Framer takes messy user requests and converts them into structured, 
 
 **Boundaries / non-responsibilities**
 
-- Does **not** decide which disciplines to involve (that’s Discipline Tagger’s job),
+- Does **not** decide which disciplines to involve (Research team handles that),
 - Does **not** choose specific tools or models.
-
----
-
-### Discipline Tagger
-
-**Purpose**  
-The Discipline Tagger maps framed problems to relevant disciplines and topics, and identifies how they connect.
-
-**Core responsibilities**
-
-- Identify disciplines (e.g. law, economics, engineering, UX) relevant to a problem,
-- Identify sub-topics and their interdependencies,
-- Produce a **discipline/topic map** to guide:
-  - Research,
-  - Tasking,
-  - Solution generation.
-
-**Inputs**
-
-- Framed problem statements,
-- Existing research knowledge,
-- Business constraints.
-
-**Outputs**
-
-- Discipline lists and topic trees,
-- Dependency graphs between disciplines/topics.
-
-**Boundaries / non-responsibilities**
-
-- Does **not** conduct detailed research (Academic Searcher does that),
-- Does **not** produce final solutions.
 
 ---
 
 ### Solution Planner
 
 **Purpose**  
-The Solution Planner translates problem framing + disciplines into a structured solution approach.
+The Solution Planner translates framed problems into solution requirements.
 
 **Core responsibilities**
 
-- Define solution requirements:
-  - What a “good solution” must cover,
-  - Constraints on method (e.g. evidence-based, legally compliant),
-  - Constraints on format (e.g. report, config, plan).
+- Define what a “good solution” must satisfy:
+  - Functional requirements,
+  - Non-functional constraints (e.g. time, cost, risk),
+  - Compliance or policy constraints from governance.
 - Propose a structured solution outline:
   - Sections,
   - Key arguments,
@@ -435,9 +439,9 @@ The Solution Planner translates problem framing + disciplines into a structured 
 
 **Inputs**
 
-- Problem statements,
-- Discipline/topic maps,
-- Business requirements.
+- Framed problem statements,
+- Business constraints and goals,
+- Research signals (where available).
 
 **Outputs**
 
@@ -470,7 +474,7 @@ The Solution Generator creates draft solutions based on plans, research, and con
 **Inputs**
 
 - Solution plan from Solution Planner,
-- Research summaries,
+- Integrated research narratives,
 - Business requirements and constraints.
 
 **Outputs**
@@ -480,7 +484,7 @@ The Solution Generator creates draft solutions based on plans, research, and con
 
 **Boundaries / non-responsibilities**
 
-- Does **not** decide which solution is finally accepted (committees/governance may be involved),
+- Does **not** decide which option is “approved” for execution (governance and business may decide),
 - Does **not** bypass Translation or Governance; outputs must go through normal uplift and verification.
 
 ---
@@ -490,15 +494,18 @@ The Solution Generator creates draft solutions based on plans, research, and con
 ### Research Lead
 
 **Purpose**  
-The Research Lead owns the cohort’s research logic: how it searches, evaluates, and integrates external knowledge.
+The Research Lead owns the cohort’s research logic: how it identifies disciplines, searches, evaluates, and integrates external knowledge.
 
 **Core responsibilities**
 
 - Maintain **Research Knowledge**:
-  - Disciplines and sources,
-  - Known limitations and open questions,
-  - Evidence quality assessments.
-- Coordinate Academic Searcher and Research Integrator,
+  - Disciplines and topics linked to business problems,
+  - Source types and quality considerations,
+  - Known evidence gaps.
+- Coordinate:
+  - Discipline Tagger,
+  - Academic Searcher,
+  - Research Integrator.
 - Ensure research is:
   - Relevant,
   - Sufficient,
@@ -506,14 +513,15 @@ The Research Lead owns the cohort’s research logic: how it searches, evaluates
 
 **Inputs**
 
-- Discipline/topic maps from Discipline Tagger,
-- Business requirements,
+- Business problem framing,
+- Solution requirements,
 - Governance constraints (e.g. on source types).
 
 **Outputs**
 
 - Research plans,
-- Guidance on source selection and depth.
+- Guidance on discipline/topic coverage,
+- Signals where evidence is weak or conflicting.
 
 **Boundaries / non-responsibilities**
 
@@ -522,10 +530,40 @@ The Research Lead owns the cohort’s research logic: how it searches, evaluates
 
 ---
 
+### Discipline Tagger
+
+**Purpose**  
+The Discipline Tagger is the first step in the research pipeline: it maps business problems to the disciplines and topics that must be covered.
+
+**Core responsibilities**
+
+- Take the **framed business problem** and:
+  - Identify relevant disciplines (e.g. law, economics, engineering, UX),
+  - Identify sub-topics and their interdependencies.
+- Produce a **discipline/topic map** that structures what the Research team will search and integrate.
+
+**Inputs**
+
+- Problem statements from Problem Framer,
+- Business constraints,
+- Existing research knowledge (if any).
+
+**Outputs**
+
+- Discipline lists and topic trees,
+- Dependency graphs between disciplines/topics.
+
+**Boundaries / non-responsibilities**
+
+- Does **not** conduct detailed literature search (Academic Searcher does that),
+- Does **not** decide solution requirements (that’s Solution Planner’s job).
+
+---
+
 ### Academic Searcher
 
 **Purpose**  
-The Academic Searcher is responsible for retrieving and curating external knowledge: academic, technical, policy, etc.
+The Academic Searcher is responsible for retrieving and curating external knowledge (academic, technical, policy, etc.) within the discipline/topic map.
 
 **Core responsibilities**
 
@@ -537,41 +575,40 @@ The Academic Searcher is responsible for retrieving and curating external knowle
   - Relevance,
   - Quality,
   - Bias or limitations.
-- Provide structured bibliographies and summaries.
+- Provide structured bibliographies and source notes.
 
 **Inputs**
 
+- Discipline/topic map from Discipline Tagger,
 - Research plan from Research Lead,
-- Discipline/topic map,
-- Access via Reader and System Lead (where needed).
+- Access via Reader/System Lead (where needed).
 
 **Outputs**
 
 - Source lists (with metadata),
-- Structured notes and excerpts,
-- Signals on where evidence is weak or conflicting.
+- Structured notes and excerpts per discipline/topic.
 
 **Boundaries / non-responsibilities**
 
 - Does **not** integrate research into final narratives (Research Integrator does that),
-- Does **not** change problem framing or business requirements.
+- Does **not** change the discipline/topic structure unilaterally; major changes should be agreed with Discipline Tagger/Research Lead.
 
 ---
 
 ### Research Integrator
 
 **Purpose**  
-The Research Integrator synthesises multiple sources and threads them into coherent narratives and arguments.
+The Research Integrator synthesises multiple sources and threads them into coherent narratives and arguments per problem.
 
 **Core responsibilities**
 
-- Identify convergences and divergences across sources,
+- Identify convergences and divergences across sources within each discipline and across disciplines,
 - Build conceptual narratives:
   - What is known,
   - What is uncertain,
-  - How evidence supports or constrains solutions.
+  - How evidence supports or constrains candidate solutions.
 - Provide integrated research outputs for:
-  - Solution Planner and Generator,
+  - Solution Planner and Solution Generator,
   - Governance (where evidence matters for risk).
 
 **Inputs**
@@ -726,7 +763,10 @@ The Input Lead owns the overall quality and suitability of inputs before they re
   - Original inputs,
   - Normalised/structured versions,
   - Records of clarifications and assumptions.
-- Coordinate Input Analyst, Input Clarifier, and Content Filter.
+- Coordinate:
+  - Input Analyst,
+  - Linguistic Normaliser,
+  - Input Clarifier.
 
 **Inputs**
 
@@ -773,24 +813,57 @@ The Input Analyst inspects incoming inputs for gaps, ambiguity, and risk.
 
 ---
 
-### Input Clarifier
+### Linguistic Normaliser
 
 **Purpose**  
-The Input Clarifier transforms raw user inputs into structured, machine-ready representations.
+The Linguistic Normaliser ensures that the language of the input is internally consistent and machine-friendly before reasoning starts.
 
 **Core responsibilities**
 
-- Resolve ambiguities through:
-  - dialogue with First Respondent,
-  - internal checks with other roles.
+- Harmonise language across:
+  - Different user phrasings,
+  - Multiple input documents,
+  - Multiple languages (where relevant).
+- Resolve terminology clashes:
+  - Map synonyms and local jargon to stable internal concepts.
+- Simplify complex phrasing while preserving meaning, to aid downstream reasoning.
+
+**Inputs**
+
+- Raw or partially analysed inputs,
+- Style/terminology constraints from the organisation.
+
+**Outputs**
+
+- Linguistically normalised input drafts,
+- Terminology mappings for internal use.
+
+**Boundaries / non-responsibilities**
+
+- Does **not** interact with users directly (First Respondent / Input Clarifier do),
+- Does **not** change the substantive content or commitments; it changes form, not intent.
+
+---
+
+### Input Clarifier
+
+**Purpose**  
+The Input Clarifier transforms diagnosed and normalised inputs into fully structured, unambiguous representations, closing the loop with the user where needed.
+
+**Core responsibilities**
+
+- Resolve remaining ambiguities through:
+  - Structured questions via First Respondent,
+  - Internal consistency checks.
 - Produce structured inputs:
   - Key fields,
   - Normalised concepts,
-  - Explicit assumptions.
+  - Explicit assumptions and constraints.
 
 **Inputs**
 
 - Input analysis,
+- Linguistically normalised drafts,
 - User clarifications,
 - Context from Persona Tracker.
 
@@ -802,39 +875,6 @@ The Input Clarifier transforms raw user inputs into structured, machine-ready re
 
 - Does **not** introduce new requirements; it only makes existing ones explicit.
 - Does **not** discard user intent; substantial changes must be agreed via user interaction.
-
----
-
-### Content Filter
-
-**Purpose**  
-The Content Filter decides which content should be inside vs outside the core solution draft or internal reasoning.
-
-**Core responsibilities**
-
-- Label and route content:
-  - Core problem/solution content,
-  - Reference materials,
-  - Sensitive or out-of-scope content.
-- Prevent inappropriate content from:
-  - Polluting internal knowledge bodies,
-  - Reaching users when not appropriate.
-
-**Inputs**
-
-- Refined inputs,
-- Internal drafts and research outputs.
-
-**Outputs**
-
-- Filtered content flows:
-  - Safe inputs to analysis/solution,
-  - Quarantined or excluded content audited via governance where needed.
-
-**Boundaries / non-responsibilities**
-
-- Does **not** unilaterally censor legitimate requirements; must follow governance policy.
-- Does **not** decide final user-facing content; Output team has that responsibility.
 
 ---
 
@@ -851,7 +891,10 @@ The Output Lead owns the final shape and presentation of outputs delivered to us
   - Drafts from Solution Generator and Research Integrator,
   - User-ready versions,
   - Variants by audience or channel.
-- Coordinate Section Organiser, Linguistic Normaliser, and Tone Stylist.
+- Coordinate:
+  - Content Filter,
+  - Section Organiser,
+  - Tone Stylist.
 
 **Inputs**
 
@@ -870,10 +913,44 @@ The Output Lead owns the final shape and presentation of outputs delivered to us
 
 ---
 
+### Content Filter
+
+**Purpose**  
+The Content Filter is the first step in the output pipeline: it decides which content flows into the user-facing deliverable and which does not.
+
+**Core responsibilities**
+
+- Label and route content:
+  - Core problem/solution content,
+  - Supporting references,
+  - Sensitive or internal-only content.
+- Ensure user-facing outputs only contain:
+  - Appropriate content for the user’s role,
+  - Content that is consistent with governance and policy.
+
+**Inputs**
+
+- Draft solutions and research narratives,
+- Governance policies on disclosure and sensitivity.
+
+**Outputs**
+
+- Filtered content sets:
+  - Content approved for user-facing outputs,
+  - Content flagged as internal-only or quarantined.
+
+**Boundaries / non-responsibilities**
+
+- Does **not** structure the content (Section Organiser does that),
+- Does **not** style the language (Tone Stylist does that),
+- Does **not** censor legitimate requirements arbitrarily; must follow governance policy.
+
+---
+
 ### Section Organiser
 
 **Purpose**  
-The Section Organiser structures content into coherent sections and hierarchy.
+The Section Organiser structures the filtered content into coherent sections and narrative flow.
 
 **Core responsibilities**
 
@@ -887,9 +964,9 @@ The Section Organiser structures content into coherent sections and hierarchy.
 
 **Inputs**
 
-- Solution drafts,
-- Research narratives,
-- Output Lead guidance.
+- Filtered content from Content Filter,
+- Output Lead guidance,
+- Governance requirements (e.g. mandatory sections).
 
 **Outputs**
 
@@ -900,37 +977,6 @@ The Section Organiser structures content into coherent sections and hierarchy.
 
 - Does **not** modify factual content; it arranges it.
 - Does **not** override governance constraints on mandatory sections (e.g. disclaimers).
-
----
-
-### Linguistic Normaliser
-
-**Purpose**  
-The Linguistic Normaliser ensures consistency of language, terminology, and clarity.
-
-**Core responsibilities**
-
-- Harmonise language across:
-  - Multiple authors,
-  - Multiple sources,
-  - Multiple languages (where relevant).
-- Resolve conflicting terminology,
-- Simplify complex phrasing while preserving meaning.
-
-**Inputs**
-
-- Structured drafts from Section Organiser,
-- Style and terminology guidelines from User Lead/organisation.
-
-**Outputs**
-
-- Linguistically coherent drafts,
-- Terminology mapping tables where needed.
-
-**Boundaries / non-responsibilities**
-
-- Does **not** change factual claims or recommendations,
-- Does **not** invent new commitments.
 
 ---
 
@@ -954,7 +1000,7 @@ The Tone Stylist adapts language style, tone, and formatting to the intended aud
 
 **Inputs**
 
-- Linguistically normalised drafts,
+- Structured outputs from Section Organiser,
 - Persona profiles,
 - Style guidance from User Lead/organisation.
 
@@ -1198,8 +1244,7 @@ If your implementation merges or omits roles:
   - logging and visibility requirements,
   - or the operational invariants in the Core Spec.
 
-This document is intended to be **readable by humans** and **mappable to code**.  
-Treat it as the “org chart + job descriptions” for a PWCF cohort.
+Treat this as the **org chart + job descriptions** for a PWCF cohort, aligned with the atomic reasoning and governance-first logic of PWCF.
 
 ---
 
