@@ -1,115 +1,152 @@
 # PWCF Bot Roles – Layer / Team / Role Interpretations
 
-This file organises the **bot role pages (slides 8–12)** from the PWCF deck into a simple outline:
 
-- **H1** = Layer  
-- **H2** = Team  
-- **H3** = Role
 
-For each entry, the text after the colon is **only composed of phrases taken directly from the deck** (mainly the bot list and top-level architecture slide).  
-Where the deck text is incomplete, it is left as-is rather than “fixed”.
-
-If there was genuinely no description for a heading, it would be left as `XXX`.  
-(At this level, every role has at least some text in the deck.)
 
 ---
 
-# Analysis Layer: Solving the business problem – Researching the right knowledge
+# Analysis Layer:
+- Solving the business problem – Researching the right knowledge
 
-## Business Team: Solving the business problem
+## Business Team:
+- Solving the business problem
 
-### Business Lead: Communicating with other team leads – representing the modular logics of problem-solving
+### Business Lead:
+- Communicating with other team leads – representing the modular logics of problem-solving
 
-### Problem Framer: Frame and scope the problems needing to be solved based on user and information input
+### Problem Framer:
+- Frame and scope the problems needing to be solved based on user and information input
 
-### Solution Planner: Determine the requirements for the solution
+### Solution Planner:
+- Determine the requirements for the solution
 
-### Solution Generator: Deliver the machine-ready solution output based on research output to address the framed problems
+### Solution Generator:
+- Deliver the machine-ready solution output based on research output to address the framed problems
 
-## Research Team: Researching the right knowledge
+## Research Team:
+- Researching the right knowledge
 
-### Research Lead: Communicating with other team leads – representing the modular logics of academic research
+### Research Lead:
+- Communicating with other team leads – representing the modular logics of academic research
 
-### Discipline Tagger: Identify disciplines and topics that address the identified problems – Map discipline and topic dependencies
+### Discipline Tagger:
+- Identify disciplines and topics that address the identified problems – Map discipline and topic dependencies
 
-### Academic Searcher: Take the required disciplinary position and provide academic input to each research topics
+### Academic Searcher:
+- Take the required disciplinary position and provide academic input to each research topics
 
-### Research Integrator: Identify thematic commonalities and integrate research narratives to a single research output
-
----
-
-# Interaction Layer: Interacting with user – Interacting with system resources
-
-## User-facing Team: Interacting with user
-
-### User Lead: Communicating with other team leads – representing the modular logics of “user-relation” management
-
-### First respondent: Engage with the users directly – The actual “spokesperson”
-
-### Comms strategist: Analyse the relationship of individuals and group (multiple users)
-
-### Persona tracker: Analyses the persona of users and builds profiles – Tracks user background, personality, and thinking patterns
-
-## System-facing Team: Interacting with system resources
-
-### System Lead: Communicating with other team leads – representing the modular logics of system tool usage
-
-### Reader: Undertake read-access related tasks – Search and find information – Sort, filter, group data
-
-### Writer: Undertake write-access related tasks – Change records, create documents, update database, save or delete files
-
-### Admin: Undertake admin-access related tasks – Configure software, install applications, change settings
+### Research Integrator:
+- Identify thematic commonalities and integrate research narratives to a single research output
 
 ---
 
-# Translation Layer: Turning external input to machine-ready format – Turning machine-output to the required format
+# Interaction Layer:
+- Interacting with user – Interacting with system resources
 
-## Input Refining Team: Turning external input to machine-ready format
+## User-facing Team:
+- Interacting with user
 
-### Input Lead: Communicating with other team leads – representing the modular logics of clarifying input information
+### User Lead:
+- Communicating with other team leads – representing the modular logics of “user-relation” management
 
-### Input Analyst: Analyse the input information gaps, identify assumptions and risks – Standardises input
+### First respondent:
+- Engage with the users directly – The actual “spokesperson”
 
-### Linguistic Normaliser: Builds linguistic profile for style and clarity – Handles multilingual and multi-author harmonization of inputs
+### Comms strategist:
+- Analyse the relationship of individuals and group (multiple users)
 
-### Input Clarifier: Translate the user input or document to machine-ready format
+### Persona tracker:
+- Analyses the persona of users and builds profiles – Tracks user background, personality, and thinking patterns
 
-## Output Uplifting Team: Turning machine-output to the required format
+## System-facing Team:
+- Interacting with system resources
 
-### Output Lead: Communicating with other team leads – representing the modular logics of output formatting
+### System Lead:
+- Communicating with other team leads – representing the modular logics of system tool usage
 
-### Content Filter: Determine content in vs out of core solution draft
+### Reader:
+- Undertake read-access related tasks – Search and find information – Sort, filter, group data
 
-### Section Organiser: Organise output content in right structure – sections and paragraph
+### Writer:
+- Undertake write-access related tasks – Change records, create documents, update database, save or delete files
 
-### Tone Stylist: Apply correct language style, wording and document formatting – Editorial finishing
+### Admin:
+- Undertake admin-access related tasks – Configure software, install applications, change settings
 
 ---
 
-# Tasking Layer: Managing and coordinating tasks and workflows between teams
+# Translation Layer:
+- Turning external input to machine-ready format – Turning machine-output to the required format
 
-## Tasking Team: Managing and coordinating tasks and workflows between teams
+## Input Refining Team:
+- Turning external input to machine-ready format
 
-### Tasking Lead: Communicating with other team leads – representing the modular logics of work organisation
+### Input Lead:
+- Communicating with other team leads – representing the modular logics of clarifying input information
 
-### Task Builder: Define and adjust task requirements based on machine-ready input
+### Input Analyst:
+- Analyse the input information gaps, identify assumptions and risks – Standardises input
 
-### Workflow Designer: Determine the dependencies relationship between tasks
+### Linguistic Normaliser:
+- Builds linguistic profile for style and clarity – Handles multilingual and multi-author harmonization of inputs
+
+### Input Clarifier:
+- Translate the user input or document to machine-ready format
+
+## Output Uplifting Team:
+- Turning machine-output to the required format
+
+### Output Lead:
+- Communicating with other team leads – representing the modular logics of output formatting
+
+### Content Filter:
+- Determine content in vs out of core solution draft
+
+### Section Organiser:
+- Organise output content in right structure – sections and paragraph
+
+### Tone Stylist:
+- Apply correct language style, wording and document formatting – Editorial finishing
 
 ---
 
-# Governance Layer: Governing the bot boundaries, accountability and transparency
+# Tasking Layer:
+- Managing and coordinating tasks and workflows between teams
 
-## Governance Team: Governing the bot boundaries, accountability and transparency
+## Tasking Team:
+- Managing and coordinating tasks and workflows between teams
 
-### Governance Lead: Compliance check of all bots’ activities against role boundaries
+### Tasking Lead:
+- Communicating with other team leads – representing the modular logics of work organisation
 
-### Auditor: Record inputs, thinking and output of – Record a dual-audit log and cross-check against the main audit log – Can’t see dual-audit log
+### Task Builder:
+- Define and adjust task requirements based on machine-ready input
 
-### Escalator: Monitor the audit log and record all decisions, outcomes and actions made by the Gov bots in real-time – Pause or play the operations – Escalate issues and risks
+### Workflow Designer:
+- Determine the dependencies relationship between tasks
 
-### Controller: Manage access to system resources and turn non-Gov bots on or off – Blind-fold judge – can’t see other logs
+---
 
-### Verifier: Monitor the audit log and verify every output from non-Gov bots against each task input
+# Governance Layer:
+- Governing the bot boundaries, accountability and transparency
 
-### Decision Logger: Monitor the decision log record and the dual-audit log in real-time
+## Governance Team:
+- Governing the bot boundaries, accountability and transparency
+
+### Governance Lead:
+- Compliance check of all bots’ activities against role boundaries
+
+### Auditor:
+- Record inputs, thinking and output of – Record a dual-audit log and cross-check against the main audit log – Can’t see dual-audit log
+
+### Escalator:
+- Monitor the audit log and record all decisions, outcomes and actions made by the Gov bots in real-time – Pause or play the operations – Escalate issues and risks
+
+### Controller:
+- Manage access to system resources and turn non-Gov bots on or off – Blind-fold judge – can’t see other logs
+
+### Verifier:
+- Monitor the audit log and verify every output from non-Gov bots against each task input
+
+### Decision Logger:
+- Monitor the decision log record and the dual-audit log in real-time
